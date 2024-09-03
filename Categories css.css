@@ -1,0 +1,58 @@
+.categories-banner {
+    text-align: center;
+    padding: 50px 20px;
+    background: #3498db; /* Blue background for visual appeal */
+    color: #fff;
+}
+
+.categories-banner h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+
+.categories-banner p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.categories-list {
+    padding: 20px;
+    text-align: center;
+}
+
+.category-item {
+    background-color: #fff;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: calc(33% - 40px); /* Adjust width to fit three items per row */
+    text-align: left;
+}
+
+ nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+  header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+

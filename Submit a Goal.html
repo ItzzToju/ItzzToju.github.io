@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a Goal - Crazy Football Goals</title>
+    <link rel="stylesheet" href="Submit a Goal css.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+<header>
+    <h1>Crazy Football Goals - FC Mobile</h1>
+</header>
+
+<nav>
+    <a href="Homepage.html">Home</a>
+    <a href="Top Goals.html">Top Goals</a>
+    <a href="Categories.html">Categories</a>
+    <a href="Submit a Goal.html" class="active">Submit a Goal</a>
+    <a href="Contact.html">Contact</a>
+</nav>
+
+<div class="submit-goal-banner">
+    <h2>Submit Your Goal</h2>
+    <p>Share your incredible football goals with the community. Fill out the form below to get featured!</p>
+</div>
+
+<div class="submit-goal-form">
+    <form action="/submit" method="post">
+        <label for="goal-title">Goal Title:</label>
+        <input type="text" id="goal-title" name="goal-title" required>
+
+        <label for="goal-video">Video URL:</label>
+        <input type="url" id="goal-video" name="goal-video" required>
+
+        <label for="goal-description">Description:</label>
+        <textarea id="goal-description" name="goal-description" rows="4" required></textarea>
+
+        <button type="submit" class="cta-button">Submit Goal</button>
+    </form>
+</div>
+
+<h2>OR</h2>
+
+<footer>
+    &copy; 2024 Crazy Football Goals - FC Mobile. All rights reserved.
+</footer>
+
+</body>
+
+</html>
